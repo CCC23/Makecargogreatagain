@@ -16,6 +16,15 @@
 					/obj/item/ammo_box/c38/iceblox,
 				)
 	crate_name = "ammo crate"
+/datum/supply_pack/security/armory/specialist
+	name = "Specialist Laser Pack"
+	desc = "Contains a set of Nanotransets more specialized laser weaponry."
+	cost = CARGO_CRATE_VALUE * 60
+	contains = list(
+		/obj/item/gun/energy/lasercannon,
+		/obj/item/gun/energy/laser/scatter,
+	)
+	crate_name = "specialist laser crate"	
 
 /datum/supply_pack/security/armor
 	name = "Armor Crate"
